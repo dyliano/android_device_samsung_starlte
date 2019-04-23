@@ -7,7 +7,7 @@ DEVICE_PATH := device/samsung/starlte
 TARGET_OTA_ASSERT_DEVICE := starltexx,starlteks,starlte
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos9810-starlte_defconfig
+TARGET_KERNEL_CONFIG := exynos9810-starlte_calikernel_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
