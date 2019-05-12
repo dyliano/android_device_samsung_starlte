@@ -8,7 +8,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_starlte
 
-BUILD_FINGERPRINT := samsung/starltexx/starlte:8.0.0/R16NW/G960FXXU1ARCC:user/release-keys
+BUILD_FINGERPRINT := samsung/starltexx/starlte:8.0.0/R16NW/G960FXXS2BSB1:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRIVATE_BUILD_DESC="starltexx-user 8.0.0 R16NW G960FXXU1ARCC release-keys"
+        PRIVATE_BUILD_DESC="starltexx-user 8.0.0 R16NW G960FXXS2BSB1 release-keys"
